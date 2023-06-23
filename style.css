@@ -1,0 +1,42 @@
+body {
+    background-color: wheat;
+    color: black;
+}
+
+#game-board {
+    position:absolute;
+    top: 25%;
+    left: 37%;
+    height: 400px;
+    width: 400px;
+    border: 3px solid rgb(12, 8, 8);
+}
+
+#score-board {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    margin-top: 4rem;
+    gap: 1rem;
+    color: black;
+    font-weight: 200;
+    font-size: 50px;
+}
+
+.snake {
+    background-color: darkgreen;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+}
+
+.snake.head {
+    background-color: lime;
+}
+
+.food {
+    background-color: red;
+    position: absolute;
+    height: 20px;
+    width: 20px;
+}
